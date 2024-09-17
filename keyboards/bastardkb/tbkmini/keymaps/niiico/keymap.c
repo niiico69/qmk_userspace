@@ -32,7 +32,7 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
-    [_BEPO] = LAYOUT_wrapper(
+    [_BEPO_42] = LAYOUT_wrapper(
        KC_TAB,        __________________BEPO_L1__________________,            __________________BEPO_R1__________________,BP_Z,
        BP_W,          __________________BEPO_L2__________________,            __________________BEPO_R2__________________,BP_M,
        LSFT_T(BP_DLR),__________________BEPO_L3__________________,            __________________BEPO_R3__________________,BP_CCED,

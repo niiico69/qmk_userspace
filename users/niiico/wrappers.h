@@ -128,7 +128,7 @@ enum custom_keycodes {
 
 #define _________________ADJUST_R1_________________        RGB_MOD,  RGB_VAI,          RGB_HUI,   RGB_SAI,       RGB_TOG
 #define _________________ADJUST_R2_________________        RGB_RMOD, RGB_VAD,          RGB_HUD,   RGB_SAD,       KC_NO
-#define _________________ADJUST_R3_________________        KC_NO,    TO(_AZERTY_BEPO), TO(_BEPO_42), KC_NO, TO(_ERGO_L)
+#define _________________ADJUST_R3_________________        ___________________KC_NO___________________
 
 #define ___________________NAV_L1__________________        KC_NO, KC_INS,           KC_HOME,   KC_PGUP,       KC_PSCR
 #define ___________________NAV_L2__________________        KC_NO, KC_DEL,           KC_END,    KC_PGDN,       KC_SCRL
@@ -146,20 +146,20 @@ enum custom_keycodes {
 #define __________________ERGO_R2__________________        KC_H,   HOMR_R,  HOMR_T,  HOMR_I,  HOMR_U
 #define __________________ERGO_R3__________________        KC_N,  KC_M,    KC_COMM,    KC_DOT, RALT_T(KC_SLSH)
 
-#define __________________E_NAV_L1_________________        KC_TAB, KC_HOME, KC_UP,   KC_END,   KC_PGUP
-#define __________________E_NAV_L2_________________        S(KC_TAB), KC_LEFT, KC_DOWN, KC_RIGHT,  KC_PGDN
-#define __________________E_NAV_L3_________________        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO
+#define __________________E_NAV_L1_________________        KC_NO, KC_HOME, KC_UP,   KC_END,   KC_PGUP
+#define __________________E_NAV_L2_________________        KC_NO, KC_LEFT, KC_DOWN, KC_RIGHT,  KC_PGDN
+#define __________________E_NAV_L3_________________        KC_NO, S(KC_TAB), KC_TAB, KC_NO, KC_NO
 
 #define __________________E_NAV_R1_________________        RALT(KC_L), KC_7, KC_8,  KC_9,  S(KC_ASTR)
 #define __________________E_NAV_R2_________________        RALT(KC_K), KC_4,  KC_5,  KC_6,  KC_PLUS
-#define __________________E_NAV_R3_________________        KC_DOT, KC_1, KC_2, KC_3, KC_N
+#define __________________E_NAV_R3_________________        KC_DOT, KC_1, KC_2, KC_3, KC_NO
 
 #define _________________MACROS_L1_________________        KC_KB_VOLUME_UP, KC_NO, KC_NO, KC_NO, KC_NO
 #define _________________MACROS_L2_________________        KC_KB_MUTE, KC_NO, KC_NO, KC_NO, KC_NO
 #define _________________MACROS_L3_________________        KC_KB_VOLUME_DOWN, TO(_AZERTY_BEPO), TO(_BEPO_42), KC_NO, TO(_ERGO_L)
 
-#define _________________MACROS_R1_________________        KC_NO, KC_F7, KC_F8, KC_F9, KC_F12
+#define _________________MACROS_R1_________________        KC_PSCR, KC_F7, KC_F8, KC_F9, KC_F12
 #define _________________MACROS_R2_________________        KC_NO, KC_F4, KC_F5, KC_F6, KC_F11
-#define _________________MACROS_R3_________________        KC_PSCR , KC_F1, KC_F2, KC_F3, KC_F10
+#define _________________MACROS_R3_________________        KC_NO, KC_F1, KC_F2, KC_F3, KC_F10
 
 // clang-format on
