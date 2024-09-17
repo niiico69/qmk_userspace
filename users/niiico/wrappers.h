@@ -128,11 +128,11 @@ enum custom_keycodes {
 
 #define _________________ADJUST_R1_________________        RGB_MOD,  RGB_VAI,          RGB_HUI,   RGB_SAI,       RGB_TOG
 #define _________________ADJUST_R2_________________        RGB_RMOD, RGB_VAD,          RGB_HUD,   RGB_SAD,       KC_NO
-#define _________________ADJUST_R3_________________        KC_NO,    TO(_AZERTY_BEPO), TO(_BEPO), KC_NO, TO(_BEPO_42)
+#define _________________ADJUST_R3_________________        KC_NO,    TO(_AZERTY_BEPO), TO(_BEPO_42), KC_NO, TO(_ERGO_L)
 
 #define ___________________NAV_L1__________________        KC_NO, KC_INS,           KC_HOME,   KC_PGUP,       KC_PSCR
 #define ___________________NAV_L2__________________        KC_NO, KC_DEL,           KC_END,    KC_PGDN,       KC_SCRL
-#define ___________________NAV_L3__________________        KC_NO, TO(_AZERTY_BEPO), TO(_BEPO), KC_NO, TO(_ERGO_L)
+#define ___________________NAV_L3__________________        KC_NO, TO(_AZERTY_BEPO), TO(_BEPO_42), KC_NO, TO(_ERGO_L)
 
 #define ___________________NAV_R1__________________        KC_NO, KC_HOME, KC_NO,   KC_PGUP,  KC_NO
 #define ___________________NAV_R2__________________        KC_NO, KC_END,  KC_UP,   KC_PGDN,  KC_NO
@@ -156,7 +156,7 @@ enum custom_keycodes {
 
 #define _________________MACROS_L1_________________        KC_KB_VOLUME_UP, KC_NO, KC_NO, KC_NO, KC_NO
 #define _________________MACROS_L2_________________        KC_KB_MUTE, KC_NO, KC_NO, KC_NO, KC_NO
-#define _________________MACROS_L3_________________        KC_KB_VOLUME_DOWN, TO(_AZERTY_BEPO), TO(_BEPO), KC_NO, TO(_ERGO_L)
+#define _________________MACROS_L3_________________        KC_KB_VOLUME_DOWN, TO(_AZERTY_BEPO), TO(_BEPO_42), KC_NO, TO(_ERGO_L)
 
 #define _________________MACROS_R1_________________        KC_NO, KC_F7, KC_F8, KC_F9, KC_F12
 #define _________________MACROS_R2_________________        KC_NO, KC_F4, KC_F5, KC_F6, KC_F11

@@ -34,12 +34,6 @@
 #define LAYOUT_kyria_base_wrapper(...)       LAYOUT_kyria_base(__VA_ARGS__)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [_BEPO] = LAYOUT_wrapper(
-        KC_TAB,         __________________BEPO_L1__________________,                                                              __________________BEPO_R1__________________, BP_Z,
-        BP_W,           __________________BEPO_L2__________________,                                                              __________________BEPO_R2__________________, BP_M,
-        LSFT_T(BP_DLR), __________________BEPO_L3__________________, LCTL_T(KC_ENT), LALT_T(KC_TAB),     KC_LGUI, LCTL_T(KC_ENT), __________________BEPO_R3__________________, BP_CCED,
-            KC_UP, KC_DOWN, LT(_NUMBR,KC_SPC), LSFT_T(KC_BSPC), LT(_SYMBL,KC_DEL),                       LT(_SYMBL,KC_ESC), RSFT_T(KC_SPC), LT(_NUMBR,KC_BSPC), KC_LEFT, KC_RGHT
-    ),
     [_AZERTY_BEPO] = LAYOUT_wrapper(
         KC_TAB,         ______________AZERTY_BEPO_L1_______________,                                                              ______________AZERTY_BEPO_R1_______________, FR_Z,
         FR_W,           ______________AZERTY_BEPO_L2_______________,                                                              ______________AZERTY_BEPO_R2_______________, FR_M,
@@ -56,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO, __________________ERGO_L1__________________,                                __________________ERGO_R1__________________, KC_NO,
         KC_NO, __________________ERGO_L2__________________,                                __________________ERGO_R2__________________, KC_NO,
         KC_NO, __________________ERGO_L3__________________, KC_NO, KC_NO,    KC_NO, KC_NO, __________________ERGO_R3__________________, KC_NO,
-                   KC_NO, KC_NO, LSFT_T(KC_ESC), LT(_E_NAV,KC_BSPC), KC_LGUI,          KC_ENTER, LT(_E_NAV,KC_SPC), RALT_T(KC_DEL),KC_NO, KC_NO
+                   KC_NO, KC_NO,  LT(_E_NAV,KC_ESC), LSFT_T(KC_BSPC), KC_LGUI,        LT(_MACROS,KC_ENTER), LT(_E_NAV,KC_SPC), RALT_T(KC_DEL),KC_NO, KC_NO
     ),
     [_SYMBL] = LAYOUT_wrapper(
         _______, _________________SYMBL_L1__________________,                                                   _________________SYMBL_R1__________________, BP_EQL,
