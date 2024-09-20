@@ -113,6 +113,14 @@ enum custom_keycodes {
 #define _________________SYMBL_R2__________________        BP_PERC, BP_AMPR, BP_PIPE, BP_BSLS,   KC_NO
 #define _________________SYMBL_R3__________________        BP_GRV,  KC_PSCR, KC_SCRL, KC_PAUS,   KC_NO
 
+#define _________________ALTGR_L1__________________        BP_CIRC, BP_LDAQ, BP_RDAQ, BP_DLR, BP_PERC
+#define _________________ALTGR_L2__________________        BP_LCBR, BP_LPRN, BP_RPRN, BP_RCBR, BP_EQL
+#define _________________ALTGR_L3__________________        BP_TILD, BP_LCBR, BP_RCBR, BP_UNDS, BP_HASH
+
+#define _________________ALTGR_R1__________________        BP_AT,   BP_AMPR, BP_ASTR, BP_QUOT, BP_GRV
+#define _________________ALTGR_R2__________________        BP_GRV,  BP_PLUS, BP_MINS, BP_SLSH, BP_DQUO
+#define _________________ALTGR_R3__________________        BP_PIPE, BP_EXLM, BP_SCLN, BP_COMM, BP_QUES
+
 #define _________________NUMBR_L1__________________        ________________NUMBER_LEFT________________
 #define _________________NUMBR_L2__________________        _________________FUNC_ROW1_________________
 #define _________________NUMBR_L3__________________        _________________FUNC_ROW2_________________
@@ -147,7 +155,7 @@ enum custom_keycodes {
 #define __________________ERGO_R3__________________        KC_N,  KC_M,    KC_COMM,    KC_DOT, RALT_T(KC_SLSH)
 
 #define __________________E_NAV_L1_________________        KC_NO, KC_HOME, KC_UP,   KC_END,   KC_PGUP
-#define __________________E_NAV_L2_________________        KC_NO, KC_LEFT, KC_DOWN, KC_RIGHT,  KC_PGDN
+#define __________________E_NAV_L2_________________        CW_TOGG, KC_LEFT, KC_DOWN, KC_RIGHT,  KC_PGDN
 #define __________________E_NAV_L3_________________        KC_NO, S(KC_TAB), KC_TAB, KC_NO, KC_NO
 
 #define __________________E_NAV_R1_________________        RALT(KC_L), KC_7, KC_8,  KC_9,  S(KC_ASTR)

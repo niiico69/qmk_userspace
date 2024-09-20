@@ -24,12 +24,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Define layer names */
 enum userspace_layers {
     _BEPO_42 = 0,
-    _AZERTY_BEPO = 3,
-    _ERGO_L = 4,
-    _SYMBL = 5,
-    _NUMBR = 6,
-    _ADJUST = 7,
-    _NAV = 8,
-    _E_NAV = 9,
-    _MACROS = 10
+    _AZERTY_BEPO = 1,
+    _ERGO_L = 2,
+    _SYMBL = 3,
+    _ALTGR = 4,
+    _NUMBR = 5,
+    _ADJUST = 6,
+    _NAV = 7,
+    _E_NAV = 8,
+    _MACROS = 9
 };
