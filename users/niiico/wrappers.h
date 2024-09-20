@@ -162,6 +162,14 @@ enum custom_keycodes {
 #define __________________E_NAV_R2_________________        RALT(KC_K), KC_4,  KC_5,  KC_6,  KC_PLUS
 #define __________________E_NAV_R3_________________        KC_DOT, KC_1, KC_2, KC_3, KC_NO
 
+#define __________________B_NAV_L1_________________        KC_NO, KC_HOME, KC_UP,   KC_END,   KC_PGUP
+#define __________________B_NAV_L2_________________        CW_TOGG, KC_LEFT, KC_DOWN, KC_RIGHT,  KC_PGDN
+#define __________________B_NAV_L3_________________        KC_NO, S(KC_TAB), KC_TAB, KC_NO, KC_NO
+
+#define __________________B_NAV_R1_________________        BP_SLSH, S(KC_7), S(KC_8),  S(KC_9),  BP_ASTR
+#define __________________B_NAV_R2_________________        BP_MINS, S(KC_4),  S(KC_5),  S(KC_6),  BP_PLUS
+#define __________________B_NAV_R3_________________        BP_DOT, S(KC_1), S(KC_2), S(KC_3), BP_COMM
+
 #define _________________MACROS_L1_________________        KC_KB_VOLUME_UP, KC_NO, KC_NO, KC_NO, KC_NO
 #define _________________MACROS_L2_________________        KC_KB_MUTE, KC_NO, KC_NO, KC_NO, KC_NO
 #define _________________MACROS_L3_________________        KC_KB_VOLUME_DOWN, TO(_AZERTY_BEPO), TO(_BEPO_42), KC_NO, TO(_ERGO_L)

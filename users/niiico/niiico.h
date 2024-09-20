@@ -32,5 +32,6 @@ enum userspace_layers {
     _ADJUST = 6,
     _NAV = 7,
     _E_NAV = 8,
-    _MACROS = 9
+    _B_NAV = 9,
+    _MACROS = 10
 };

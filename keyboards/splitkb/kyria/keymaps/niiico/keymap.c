@@ -38,13 +38,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,         ______________AZERTY_BEPO_L1_______________,                                ______________AZERTY_BEPO_R1_______________, FR_Z,
         FR_W,           ______________AZERTY_BEPO_L2_______________,                                ______________AZERTY_BEPO_R2_______________, FR_M,
         LSFT_T(FR_DLR), ______________AZERTY_BEPO_L3_______________, KC_NO, KC_NO,    KC_NO, KC_NO, ______________AZERTY_BEPO_R3_______________, FR_CCED,
-                    KC_NO, KC_NO, LT(_E_NAV,KC_ESC), LSFT_T(KC_BSPC), KC_LGUI,        LT(_MACROS,KC_ENTER), LT(_E_NAV,KC_SPC), LT(_ALTGR,KC_ENTER),KC_NO, KC_NO
+                    KC_NO, KC_NO, LT(_B_NAV,KC_ESC), LSFT_T(KC_BSPC), KC_LGUI,        LT(_MACROS,KC_ENTER), LT(_B_NAV,KC_SPC), LT(_ALTGR,KC_ENTER),KC_NO, KC_NO
     ),
     [_BEPO_42] = LAYOUT_wrapper(
         KC_TAB,        __________________BEPO_L1__________________,                                __________________BEPO_R1__________________, BP_Z,
         BP_W,          __________________BEPO_L2__________________,                                __________________BEPO_R2__________________, BP_M,
         LSFT_T(BP_DLR),__________________BEPO_L3__________________, KC_NO, KC_NO,    KC_NO, KC_NO, __________________BEPO_R3__________________, BP_CCED,
-                   KC_NO, KC_NO,  LT(_E_NAV,KC_ESC), LSFT_T(KC_BSPC), KC_LGUI,        LT(_MACROS,KC_ENTER), LT(_E_NAV,KC_SPC), LT(_ALTGR,KC_ENTER),KC_NO, KC_NO
+                   KC_NO, KC_NO,  LT(_B_NAV,KC_ESC), LSFT_T(KC_BSPC), KC_LGUI,        LT(_MACROS,KC_ENTER), LT(_B_NAV,KC_SPC), LT(_ALTGR,KC_ENTER),KC_NO, KC_NO
     ),
     [_ERGO_L] = LAYOUT_wrapper(
         KC_NO, __________________ERGO_L1__________________,                                __________________ERGO_R1__________________, KC_NO,

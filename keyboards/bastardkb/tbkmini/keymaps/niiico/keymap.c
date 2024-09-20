@@ -36,13 +36,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_TAB,        __________________BEPO_L1__________________,            __________________BEPO_R1__________________,BP_Z,
        BP_W,          __________________BEPO_L2__________________,            __________________BEPO_R2__________________,BP_M,
        LSFT_T(BP_DLR),__________________BEPO_L3__________________,            __________________BEPO_R3__________________,BP_CCED,
-                    LT(_E_NAV,KC_ESC), LSFT_T(KC_BSPC), KC_LGUI,        LT(_MACROS,KC_ENTER), LT(_E_NAV,KC_SPC), LT(_ALTGR,KC_ENTER)
+                    LT(_B_NAV,KC_ESC), LSFT_T(KC_BSPC), KC_LGUI,        LT(_MACROS,KC_ENTER), LT(_B_NAV,KC_SPC), LT(_ALTGR,KC_ENTER)
     ),
     [_AZERTY_BEPO] = LAYOUT_wrapper(
         KC_TAB, ______________AZERTY_BEPO_L1_______________,                  ______________AZERTY_BEPO_R1_______________, FR_Z,
         FR_W,   ______________AZERTY_BEPO_L2_______________,                  ______________AZERTY_BEPO_R2_______________, FR_M,
         FR_DLR, ______________AZERTY_BEPO_L3_______________,                  ______________AZERTY_BEPO_R3_______________, FR_CCED,
-            LT(_E_NAV,KC_ESC), LSFT_T(KC_BSPC), KC_LGUI,        LT(_MACROS,KC_ENTER), LT(_E_NAV,KC_SPC), LT(_ALTGR,KC_ENTER)
+            LT(_B_NAV,KC_ESC), LSFT_T(KC_BSPC), KC_LGUI,        LT(_MACROS,KC_ENTER), LT(_B_NAV,KC_SPC), LT(_ALTGR,KC_ENTER)
     ),
     [_ERGO_L] = LAYOUT_wrapper(
         KC_NO, __________________ERGO_L1__________________,                   __________________ERGO_R1__________________, KC_NO,
@@ -85,6 +85,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO, __________________E_NAV_L2_________________,                   __________________E_NAV_R2_________________, KC_NO,
         KC_NO, __________________E_NAV_L3_________________,                   __________________E_NAV_R3_________________, KC_NO,
                                  _______, _______, _______,                   _______, _______, KC_0
+    ),
+    [_B_NAV] = LAYOUT_wrapper(
+        KC_NO, __________________B_NAV_L1_________________,                   __________________B_NAV_R1_________________, KC_NO,
+        KC_NO, __________________B_NAV_L2_________________,                   __________________B_NAV_R2_________________, KC_NO,
+        KC_NO, __________________B_NAV_L3_________________,                   __________________B_NAV_R3_________________, KC_NO,
+                             _______, _______, _______,                   _______, _______, KC_0
     ),
     [_MACROS] = LAYOUT_wrapper(
         KC_NO, _________________MACROS_L1_________________,                   _________________MACROS_R1_________________, KC_NO,
