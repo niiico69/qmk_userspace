@@ -20,6 +20,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 __attribute__((weak)) layer_state_t layer_state_set_keymap(layer_state_t state) { return state; }
 layer_state_t layer_state_set_user(layer_state_t state) {
     state = update_tri_layer_state(state, _E_NAV, _MACROS, _ADJUST);
-//    state = update_tri_layer_state(state, _NAV, _SYMBL, _ADJUST);
+    //    state = update_tri_layer_state(state, _NAV, _SYMBL, _ADJUST);
     return layer_state_set_keymap(state);
 }

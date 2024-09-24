@@ -29,9 +29,9 @@ enum userspace_layers {
     _SYMBL = 3,
     _ALTGR = 4,
     _NUMBR = 5,
-    _ADJUST = 6,
     _NAV = 7,
     _E_NAV = 8,
     _B_NAV = 9,
-    _MACROS = 10
+    _MACROS = 10,
+    _ADJUST = 11
 };
